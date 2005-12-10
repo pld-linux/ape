@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=APE
+Comment=Advanced Petri networks Environment
+Exec=ape
+Type=Application
+Terminal=false
+MapNotify=false
+Encoding=UTF-8
+Categories=Qt;Education;Science;
+Icon=ape.png
+# vi: encoding=utf-8
