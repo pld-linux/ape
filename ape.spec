@@ -21,23 +21,24 @@ and simple time nets with priorities.
 
 %description -l pl
 APE jest narzêdziem maj±cym dostarczaæ zaawansowane ¶rodowisko do
-modelowania i analizy sieci Petriego. Wspiera kilka klas niskopoziomowych
-sieci Petriego: sieci miejsc i przej¶æ, sieci priorytetowe, proste sieci
-czasowe oraz proste priorytetowe sieci czasowe.
+modelowania i analizy sieci Petriego. Wspiera kilka klas
+niskopoziomowych sieci Petriego: sieci miejsc i przej¶æ, sieci
+priorytetowe, proste sieci czasowe oraz proste priorytetowe sieci
+czasowe.
 
 %prep
 %setup -q
 
 %build
 export QTDIR=%{_prefix}
-%{_bindir}/qmake
+qmake
 %{__make} \
 	CFLAGS="%{rpmcflags}" \
 	CXXFLAGS="%{rpmcxxflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/apps/%{name}{,examples},%{_pixmapsdir},%{_desktopdir}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/apps/%{name},%{_pixmapsdir},%{_desktopdir}}
 
 # project is not ready yet for this
 #%{__make} install \
