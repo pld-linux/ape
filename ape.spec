@@ -1,5 +1,5 @@
 Summary:	APE - Advanced Petri nets Environment
-Summary(pl.UTF-8):   APE - Zaawansowane środowisko sieci Petriego
+Summary(pl.UTF-8):	APE - Zaawansowane środowisko sieci Petriego
 Name:		ape
 Version:	0.5.2.1
 Release:	1
