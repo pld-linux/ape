@@ -1,5 +1,5 @@
 Summary:	APE - Advanced Petri nets Environment
-Summary(pl):	APE - Zaawansowane ¶rodowisko sieci Petriego
+Summary(pl.UTF-8):   APE - Zaawansowane Å›rodowisko sieci Petriego
 Name:		ape
 Version:	0.5.2.1
 Release:	1
@@ -19,10 +19,10 @@ analysis of Petri nets. The tool supports a few classes of low level
 Petri nets: place-transition nets, priority nets, simple time nets
 and simple time nets with priorities.
 
-%description -l pl
-APE jest narzêdziem maj±cym dostarczaæ zaawansowane ¶rodowisko do
+%description -l pl.UTF-8
+APE jest narzÄ™dziem majÄ…cym dostarczaÄ‡ zaawansowane Å›rodowisko do
 modelowania i analizy sieci Petriego. Wspiera kilka klas
-niskopoziomowych sieci Petriego: sieci miejsc i przej¶æ, sieci
+niskopoziomowych sieci Petriego: sieci miejsc i przejÅ›Ä‡, sieci
 priorytetowe, proste sieci czasowe oraz proste priorytetowe sieci
 czasowe.
 
